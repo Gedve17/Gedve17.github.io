@@ -179,3 +179,21 @@ button {
     button:hover {
         background-color: rgb(20, 82, 140);
     }
+    /* Map */
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 120px);
+    margin: 0;
+}
+
+.map-image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+figure {
+    margin: 0;
+}
